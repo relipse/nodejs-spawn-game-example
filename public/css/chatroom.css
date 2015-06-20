@@ -1,0 +1,59 @@
+body {
+	font-family: Gill Sans,Gill Sans MT,Calibri,sans-serif;
+}
+
+.members {
+  float: left;
+  width: 20%;
+  height: 500px;
+  background-color: silver;
+  border: 1px solid gray;
+  font-size: .9em;
+}
+
+.members ul{
+  list-style: none;
+}
+
+.members li {
+   border-bottom: 1px solid gray;
+}
+
+.members li.me {
+   font-weight: bold;
+}
+
+.messages {
+  width: 79%;
+  height: 500px;
+  float: left;
+  background-color: #FFFFFF;
+  border: 1px solid gray;
+}
+
+.messages ul{
+  list-style: none;
+  padding-left: 10px;
+  margin-top: 5px;
+  height: 500px;
+  overflow-y: auto;
+}
+
+.chatbox input {
+   width: 100%;
+}
+
+.messages li.italic, .messages li.italics, .messages li.system {
+   font-style: italic;
+   color: gray;
+}
+
+.messages li.bold {
+	font-weight: bold;
+}
+
+
+footer {
+  bottom: 10px;
+  position: absolute;
+}
